@@ -190,9 +190,9 @@ async function setupSessionFromID(sessionID) {
         fs.mkdirSync(sessionPath, { recursive: true });
         
         let cleanSession = sessionID;
-        if (sessionID.startsWith('IK~')) {
+        if (sessionID.startsWith('Silva~')) {
             cleanSession = sessionID.substring(10);
-            logger.info('📝 Removed IK~ prefix');
+            logger.info('📝 Removed Silva~ prefix');
         }
         
         try {
