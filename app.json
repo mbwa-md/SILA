@@ -1,0 +1,22 @@
+{
+  "name": "SILA AI",
+  "description": "Professional WhatsApp Bot",
+  "logo": "https://files.catbox.moe/g9b8w1.png",
+  "keywords": ["whatsapp", "bot", "nodejs"],
+  "env": {
+    "SESSION_ID": {
+      "description": "Your WhatsApp session ID",
+      "required": true
+    },
+    "BOT_OWNER": {
+      "description": "Your WhatsApp number (255612491554@s.whatsapp.net)",
+      "value": "255612491554@s.whatsapp.net",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

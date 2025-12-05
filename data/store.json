@@ -1,0 +1,22 @@
+{
+  "users": {},
+  "groups": {
+    "120363420877695592@g.us": {
+      "welcome": true
+    },
+    "120363404648059559@g.us": {
+      "welcome": true,
+      "antilink": false
+    },
+    "120363421576351990@g.us": {
+      "antilink": true
+    }
+  },
+  "settings": {},
+  "stats": {
+    "commands": 0,
+    "messages": 0,
+    "users": 0,
+    "groups": 0
+  }
+}
