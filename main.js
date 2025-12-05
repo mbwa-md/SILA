@@ -137,24 +137,29 @@ async function autoJoinGroups(sock) {
                     setTimeout(async () => {
                         try {
                             await utils.sendBlueTickMessage(sock, groupJid,
-                                `╭━━【 𝐒𝐈𝐋𝐀 𝐀𝐈 】━━━━━━━━╮
-│ 🤖 Professional WhatsApp Bot
+                                `━━【 🚀 𝐒𝐈𝐋𝐀 𝐀𝐈 】━━━━━━━━╮
+│ 🤖 *ULTRA-PROFESSIONAL WHATSAPP BOT*
 ╰━━━━━━━━━━━━━━━━━━━━╯
 
-✅ *Bot Successfully Joined!*
+🎉 *✅ 𝐁𝐎𝐓 𝐉𝐎𝐈𝐍𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘!*
 
-📌 *Features:*
-• AI Chat & Images
-• Media Downloader
-• 80+ Commands
-• Auto Features
-
-👑 Owner: +255612491554
-🔵 Type ${config.PREFIX}menu
-
-╭━━━━━━━━━━━━━━━━━━━━╮
-│ WhatsApp ‧ Verified
-╰━━━━━━━━━━━━━━━━━━━━╯`
+✨ *𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒 𝐋𝐈𝐒𝐓:*
+┌─────────────────────────┐
+│ 🎨 • AI Image Generator
+| ✅ • Auto View Status
+| ✅ • Auto Like Status
+| ✅ • Auto Reactions
+| ✅ • Auto Read Messages
+| ✅ • Anti-Link Protection
+│ 🎵 • Media Downloader
+│ 🔍 • Web Search
+│ 🛠️ • 80+ Commands
+│ 🤖 • AI Chat
+│ 🎮 • Games & Fun
+│ 📊 • Group Tools
+│ ⚡ • Ultra Fast
+| 📞 *𝐂𝐎𝐍𝐓𝐀𝐂𝐓:* +255612491554
+└─────────────────────────┘`
                             );
                         } catch (e) {
                             logger.warning(`Welcome message failed`);
