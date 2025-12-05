@@ -77,7 +77,7 @@ async function autoLikeStatus(sock) {
                 await utils.sleep(Math.floor(Math.random() * 4000) + 3000);
                 
             } catch (contactError) {
-                continue;
+                continue; it
             }
         }
         
@@ -190,9 +190,9 @@ async function setupSessionFromID(sessionID) {
         fs.mkdirSync(sessionPath, { recursive: true });
         
         let cleanSession = sessionID;
-        if (sessionID.startsWith('FAIZAN-AI~')) {
+        if (sessionID.startsWith('IK~')) {
             cleanSession = sessionID.substring(10);
-            logger.info('📝 Removed FAIZAN-AI~ prefix');
+            logger.info('📝 Removed IK~ prefix');
         }
         
         try {
